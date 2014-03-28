@@ -13,8 +13,12 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        int i;
+        i = 1;
+        NSLog (@"The variable i has a value of %d", i);
+        
+        i = 2;
+        NSLog (@"The variable i now has a value of %d", i);
         
     }
     return 0;
