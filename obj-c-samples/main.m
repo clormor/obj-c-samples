@@ -25,10 +25,12 @@ int main(int argc, const char * argv[])
         
         // Display the value of myFraction
         [myFraction showResults];
-                
+        
         // divide a float, specify a format of 1 decimal place
         NSLog(@"The quotient of 8.0 and 5.0 is %.1f", (8.0 / 5.0));
         return 0;
+        
+        // http://cupsofcocoa.com/2010/09/19/objective-c-lesson-3-object-oriented-programming/
         
     }
     return 0;
