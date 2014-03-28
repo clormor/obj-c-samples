@@ -7,24 +7,25 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "fraction.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        int result;
-        result = 10 + 20;
-        NSLog(@"The sum of 10 and 20 is %i", result);
+        // Create an instance of Fraction
+        Fraction *myFraction;
         
-        result = 25 - 30;
-        NSLog(@"The difference between 25 and 30 is %i", result);
+        myFraction = [[Fraction alloc] init];
         
-        result = 8 * 9;
-        NSLog(@"The product of 8 and 9 is %i", result);
+        // Set myFraction to 2/5
+        [myFraction setNumerator:2];
+        [myFraction setDenominator:5];
         
-        NSLog(@"The quotient of 8 and 5 is %i", (8 / 5));
-        
+        // Display the value of myFraction
+        [myFraction showResults];
+                
         // divide a float, specify a format of 1 decimal place
         NSLog(@"The quotient of 8.0 and 5.0 is %.1f", (8.0 / 5.0));
         return 0;

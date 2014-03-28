@@ -10,6 +10,7 @@
 		4B9694D118E5241E00ED5050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9694D018E5241E00ED5050 /* Foundation.framework */; };
 		4B9694D418E5241E00ED5050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9694D318E5241E00ED5050 /* main.m */; };
 		4B9694D818E5241E00ED5050 /* obj_c_samples.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B9694D718E5241E00ED5050 /* obj_c_samples.1 */; };
+		4B9694E018E52AC700ED5050 /* fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9694DF18E52AC700ED5050 /* fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		4B9694D318E5241E00ED5050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B9694D618E5241E00ED5050 /* obj-c-samples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "obj-c-samples-Prefix.pch"; sourceTree = "<group>"; };
 		4B9694D718E5241E00ED5050 /* obj_c_samples.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = obj_c_samples.1; sourceTree = "<group>"; };
+		4B9694DF18E52AC700ED5050 /* fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fraction.m; sourceTree = "<group>"; };
+		4B9694E118E52B5700ED5050 /* fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fraction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		4B9694D218E5241E00ED5050 /* obj-c-samples */ = {
 			isa = PBXGroup;
 			children = (
+				4B9694DF18E52AC700ED5050 /* fraction.m */,
+				4B9694E118E52B5700ED5050 /* fraction.h */,
 				4B9694D318E5241E00ED5050 /* main.m */,
 				4B9694D718E5241E00ED5050 /* obj_c_samples.1 */,
 				4B9694D518E5241E00ED5050 /* Supporting Files */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B9694D418E5241E00ED5050 /* main.m in Sources */,
+				4B9694E018E52AC700ED5050 /* fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
